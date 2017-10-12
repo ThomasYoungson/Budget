@@ -22,123 +22,130 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Rnf-Z8-yhm">
-                                <rect key="frame" x="16" y="40" width="288" height="264.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stardust.png" translatesAutoresizingMaskIntoConstraints="NO" id="JAy-o8-Ha5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budget Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faZ-la-bt1">
+                                <rect key="frame" x="16" y="35" width="288" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91M-9p-B11">
+                                <rect key="frame" x="16" y="388" width="288" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="U44-GF-JNw">
+                                <rect key="frame" x="16" y="82" width="288" height="202"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budget Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wi2-qL-Rz7">
-                                        <rect key="frame" x="0.0" y="0.0" width="215.5" height="32.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Income" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3n-Zp-kWg">
-                                        <rect key="frame" x="0.0" y="32.5" width="288" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zqp-kx-mZ4">
-                                        <rect key="frame" x="0.0" y="53" width="288" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0E-Mp-QFd">
-                                        <rect key="frame" x="0.0" y="83" width="288" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.98043644429999999" green="0.029248226539999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2tx-05-AiQ">
-                                        <rect key="frame" x="0.0" y="103.5" width="288" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDx-ti-Kcz">
-                                        <rect key="frame" x="0.0" y="133.5" width="288" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.98043644429999999" green="0.029248226539999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KW6-KV-m7a">
-                                        <rect key="frame" x="0.0" y="154" width="288" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-De-pX3">
-                                        <rect key="frame" x="0.0" y="184" width="288" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.98043644429999999" green="0.029248226539999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CR9-BO-csA">
-                                        <rect key="frame" x="0.0" y="204.5" width="288" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRo-VC-Bia">
-                                        <rect key="frame" x="0.0" y="234.5" width="179" height="30"/>
-                                        <state key="normal" title="Calculate Money Left over">
-                                            <color key="titleColor" red="0.51063370699999999" green="0.61332219840000002" blue="0.98043644429999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="calculateTotal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0A-FQ-HLl"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="x0E-Mp-QFd" secondAttribute="trailing" id="929-sh-EIe"/>
-                                    <constraint firstAttribute="trailing" secondItem="H3n-Zp-kWg" secondAttribute="trailing" id="9wn-4B-K4X"/>
-                                    <constraint firstAttribute="trailing" secondItem="JDx-ti-Kcz" secondAttribute="trailing" id="ACY-ET-DYa"/>
-                                    <constraint firstAttribute="trailing" secondItem="2tx-05-AiQ" secondAttribute="trailing" id="H0a-PV-aSF"/>
-                                    <constraint firstAttribute="trailing" secondItem="CR9-BO-csA" secondAttribute="trailing" id="XOV-Bl-PBn"/>
-                                    <constraint firstAttribute="trailing" secondItem="KW6-KV-m7a" secondAttribute="trailing" id="jUt-YF-Clm"/>
-                                    <constraint firstAttribute="trailing" secondItem="h7z-De-pX3" secondAttribute="trailing" id="p26-zW-akE"/>
-                                    <constraint firstAttribute="trailing" secondItem="Zqp-kx-mZ4" secondAttribute="trailing" id="r6Y-6t-ky9"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ced-MQ-Llu">
-                                <rect key="frame" x="16" y="304.5" width="288" height="41"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount Left over" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOo-03-jwp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Income" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xii-4w-TOI">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAo-af-TTA">
-                                        <rect key="frame" x="0.0" y="20.5" width="288" height="20.5"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="14G-5j-2tZ">
+                                        <rect key="frame" x="0.0" y="20.5" width="288" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-dP-sRw">
+                                        <rect key="frame" x="0.0" y="50.5" width="288" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gbf-5r-YYT">
+                                        <rect key="frame" x="0.0" y="71" width="288" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dv-eY-vcj">
+                                        <rect key="frame" x="0.0" y="101" width="288" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oAw-mj-JPK">
+                                        <rect key="frame" x="0.0" y="121.5" width="288" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK3-r9-Ur3">
+                                        <rect key="frame" x="0.0" y="151.5" width="288" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hkP-az-eCh">
+                                        <rect key="frame" x="0.0" y="172" width="288" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gbf-5r-YYT" secondAttribute="trailing" id="0vj-aw-cCz"/>
+                                    <constraint firstAttribute="trailing" secondItem="14G-5j-2tZ" secondAttribute="trailing" id="1xd-uH-Azy"/>
+                                    <constraint firstAttribute="trailing" secondItem="BK3-r9-Ur3" secondAttribute="trailing" id="7Io-KL-fuy"/>
+                                    <constraint firstAttribute="trailing" secondItem="gbf-5r-YYT" secondAttribute="trailing" id="CQP-Hn-Pgs"/>
+                                    <constraint firstItem="14G-5j-2tZ" firstAttribute="leading" secondItem="U44-GF-JNw" secondAttribute="leading" id="H5V-sn-SU4"/>
+                                    <constraint firstAttribute="trailing" secondItem="5dv-eY-vcj" secondAttribute="trailing" id="I9W-0O-Lwd"/>
+                                    <constraint firstAttribute="trailing" secondItem="oAw-mj-JPK" secondAttribute="trailing" id="OPF-c6-hba"/>
+                                    <constraint firstAttribute="trailing" secondItem="oAw-mj-JPK" secondAttribute="trailing" id="PiI-Q2-Hm9"/>
+                                    <constraint firstAttribute="trailing" secondItem="hkP-az-eCh" secondAttribute="trailing" id="VyH-dt-9qf"/>
+                                    <constraint firstItem="hkP-az-eCh" firstAttribute="leading" secondItem="U44-GF-JNw" secondAttribute="leading" id="Wh6-We-kno"/>
+                                    <constraint firstAttribute="trailing" secondItem="1fW-dP-sRw" secondAttribute="trailing" id="jRk-dG-Opy"/>
+                                    <constraint firstAttribute="trailing" secondItem="hkP-az-eCh" secondAttribute="trailing" id="pa7-bv-8i7"/>
+                                    <constraint firstItem="oAw-mj-JPK" firstAttribute="leading" secondItem="U44-GF-JNw" secondAttribute="leading" id="qap-7n-LQj"/>
+                                    <constraint firstAttribute="trailing" secondItem="xii-4w-TOI" secondAttribute="trailing" id="vN8-XL-E0j"/>
+                                    <constraint firstItem="gbf-5r-YYT" firstAttribute="leading" secondItem="U44-GF-JNw" secondAttribute="leading" id="wjz-1c-90g"/>
+                                </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiV-nL-eiZ">
+                                <rect key="frame" x="128" y="320" width="64" height="30"/>
+                                <color key="backgroundColor" red="0.4994515030059164" green="0.64354553416399796" blue="0.84182661802030456" alpha="0.41553403253424659" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateTotal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAg-wj-hm4"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Rnf-Z8-yhm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Siq-HC-rOl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ced-MQ-Llu" secondAttribute="trailing" id="VUj-1I-YMt"/>
-                            <constraint firstItem="Rnf-Z8-yhm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="W9e-lG-EAO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Rnf-Z8-yhm" secondAttribute="trailing" id="bLZ-IN-OL0"/>
-                            <constraint firstItem="ced-MQ-Llu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lYJ-UJ-m3k"/>
-                            <constraint firstItem="Rnf-Z8-yhm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mZy-Ed-HSR"/>
-                            <constraint firstItem="ced-MQ-Llu" firstAttribute="top" secondItem="Rnf-Z8-yhm" secondAttribute="bottom" id="uf3-j1-BLu"/>
+                            <constraint firstItem="91M-9p-B11" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6OM-Ao-J7g"/>
+                            <constraint firstItem="FiV-nL-eiZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="112" id="CIN-ou-7Fp"/>
+                            <constraint firstItem="U44-GF-JNw" firstAttribute="top" secondItem="faZ-la-bt1" secondAttribute="bottom" constant="14.5" id="L5C-mt-Sb0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="faZ-la-bt1" secondAttribute="trailing" id="SQV-Fl-e03"/>
+                            <constraint firstItem="91M-9p-B11" firstAttribute="top" secondItem="FiV-nL-eiZ" secondAttribute="bottom" constant="38" id="Tvi-c0-Xae"/>
+                            <constraint firstItem="faZ-la-bt1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="V9r-oo-Pg7"/>
+                            <constraint firstItem="U44-GF-JNw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZFd-81-TlZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U44-GF-JNw" secondAttribute="trailing" id="a7U-Mq-AxX"/>
+                            <constraint firstItem="faZ-la-bt1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bKY-dE-eEO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FiV-nL-eiZ" secondAttribute="trailing" constant="112" id="bfQ-9L-Q9H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="91M-9p-B11" secondAttribute="trailing" id="bwT-Nz-5DT"/>
+                            <constraint firstItem="FiV-nL-eiZ" firstAttribute="top" secondItem="U44-GF-JNw" secondAttribute="bottom" constant="36" id="tY3-L7-VLY"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="foodLabel" destination="JDx-ti-Kcz" id="g2D-OV-5wZ"/>
-                        <outlet property="foodTextField" destination="KW6-KV-m7a" id="vC6-Ob-g8Z"/>
-                        <outlet property="fuelLabel" destination="h7z-De-pX3" id="OKa-7a-fUL"/>
-                        <outlet property="fuelTextField" destination="CR9-BO-csA" id="hhP-MD-rHz"/>
-                        <outlet property="incomeLabel" destination="H3n-Zp-kWg" id="yFD-eu-8Mm"/>
-                        <outlet property="incomeTextField" destination="Zqp-kx-mZ4" id="mIY-g4-6Jy"/>
-                        <outlet property="rentLabel" destination="x0E-Mp-QFd" id="0Qe-3e-c85"/>
-                        <outlet property="rentTextField" destination="2tx-05-AiQ" id="m3K-lL-Mwn"/>
-                        <outlet property="totalLabel" destination="wAo-af-TTA" id="GWk-N5-AFQ"/>
+                        <outlet property="foodLabel" destination="5dv-eY-vcj" id="xD8-S3-U3G"/>
+                        <outlet property="foodTextField" destination="oAw-mj-JPK" id="wEm-nj-tYZ"/>
+                        <outlet property="fuelLabel" destination="BK3-r9-Ur3" id="xsa-PJ-kfb"/>
+                        <outlet property="fuelTextField" destination="hkP-az-eCh" id="CbI-xB-d2B"/>
+                        <outlet property="incomeLabel" destination="xii-4w-TOI" id="7eT-7R-Lz5"/>
+                        <outlet property="incomeTextField" destination="14G-5j-2tZ" id="KSz-8E-543"/>
+                        <outlet property="rentLabel" destination="1fW-dP-sRw" id="rXp-vr-rmj"/>
+                        <outlet property="rentTextField" destination="gbf-5r-YYT" id="QVb-yj-uXB"/>
+                        <outlet property="totalLabel" destination="91M-9p-B11" id="5gs-fq-1NQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -146,4 +153,7 @@
             <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="stardust.png" width="798" height="798"/>
+    </resources>
 </document>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E958C5821F8F898900CA117B /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E958C5811F8F898900CA117B /* 6.png */; };
+		E958C58C1F8F8F9D00CA117B /* stardust.png in Resources */ = {isa = PBXBuildFile; fileRef = E958C58B1F8F8F9D00CA117B /* stardust.png */; };
 		E988BD7B1F68DFC700C4DC03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E988BD7A1F68DFC700C4DC03 /* AppDelegate.swift */; };
 		E988BD7D1F68DFC700C4DC03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E988BD7C1F68DFC700C4DC03 /* ViewController.swift */; };
 		E988BD801F68DFC700C4DC03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E988BD7E1F68DFC700C4DC03 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E958C5811F8F898900CA117B /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E958C58B1F8F8F9D00CA117B /* stardust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stardust.png; sourceTree = "<group>"; };
 		E988BD771F68DFC700C4DC03 /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E988BD7A1F68DFC700C4DC03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E988BD7C1F68DFC700C4DC03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		E988BD791F68DFC700C4DC03 /* Budget */ = {
 			isa = PBXGroup;
 			children = (
+				E958C58B1F8F8F9D00CA117B /* stardust.png */,
+				E958C5811F8F898900CA117B /* 6.png */,
 				E988BD7A1F68DFC700C4DC03 /* AppDelegate.swift */,
 				E988BD7C1F68DFC700C4DC03 /* ViewController.swift */,
 				E988BD7E1F68DFC700C4DC03 /* Main.storyboard */,
@@ -182,8 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E988BD851F68DFC700C4DC03 /* LaunchScreen.storyboard in Resources */,
+				E958C58C1F8F8F9D00CA117B /* stardust.png in Resources */,
 				E988BD821F68DFC700C4DC03 /* Assets.xcassets in Resources */,
 				E988BD801F68DFC700C4DC03 /* Main.storyboard in Resources */,
+				E958C5821F8F898900CA117B /* 6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +424,7 @@
 				E988BD961F68DFC700C4DC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E988BD971F68DFC700C4DC03 /* Build configuration list for PBXNativeTarget "BudgetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				E988BD991F68DFC700C4DC03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
